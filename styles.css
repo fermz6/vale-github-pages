@@ -1,0 +1,41 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #fffbf3;
+    color: #333;
+}
+
+#menu button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    background-color: #ff7eb3;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#menu button:hover {
+    background-color: #ff4f88;
+}
+
+#content {
+    margin-top: 20px;
+}
+
+#vinyl {
+    width: 200px;
+    height: 200px;
+    background: url('assets/vinyl.png') no-repeat center/cover;
+    border-radius: 50%;
+    animation: spin 4s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}

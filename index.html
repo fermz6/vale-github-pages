@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎉 Regalo para Valentina 🎁</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Pantalla de Rompecabezas -->
+    <div id="puzzle-container">
+        <canvas id="puzzleCanvas"></canvas>
+        <button id="nextButton" style="display:none;" onclick="showNext()">Descubre tu sorpresa 🎁</button>
+    </div>
+
+    <!-- Menú Principal -->
+    <div id="menu" style="display: none;">
+        <button onclick="showSection('photos')">📸 Galería de fotos</button>
+        <button onclick="showSection('music')">🎵 Tu Playlist</button>
+        <button onclick="showSection('letter')">💌 Carta</button>
+        <button onclick="showSection('counter')">📅 Contador de días</button>
+    </div>
+
+    <!-- Contenido dinámico -->
+    <div id="content"></div>
+
+    <script src="puzzle.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

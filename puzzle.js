@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     canvas.height = 400;
     
     let img = new Image();
-    img.src = "assets/puzzle-image.jpg"; // Asegúrate de que esta imagen exista en tu carpeta "assets"
+    img.src = "assets/puzzle-image.jpeg"; // Asegúrate de que esta imagen exista en tu carpeta "assets"
     
     img.onload = function () {
         let rows = 3, cols = 3;
